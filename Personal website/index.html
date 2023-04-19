@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="María Björk">
+
+     <!-- Font import -->
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Icon import --> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <!-- Favicon import -->
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    
+    <link rel="stylesheet" href="style.css">   
+    <title>María Björk</title>
+</head>
+<body>
+
+    <main id="main-section">
+
+        <div id="home" class="section">
+            <h1>María Björk <span class="emphasis">Bjarnadóttir</span></h1>
+            <p>Web deveolpment student</p>
+            <a href="https://github.com/MariaBjork" class=" fa fa-github-square fa-4x icon-link" target="_blank"></a>
+            <a href="https://www.linkedin.com/feed/" class="fa fa-linkedin fa-4x icon-link" target="_blank"></a>
+        </div>
+
+    <div id="projects" class="section">
+        <h2>Projects</h2>
+
+        <div id="projects-container"> 
+            <div>
+                <a href="kemur hlekkur seinna" target="_blank">
+                    <img src="kemur seinna" alt="kemur seinna" alt="kemur seinna">
+                    <p class="project-title">kemur seinna</p>
+                </a>
+            </div>
+
+            <div> 
+                <a href="kemur hlekkur seinna" target="_blank">
+                    <img src="kemur seinna" alt="kemur seinna" alt="kemur seinna">
+                    <p class="project-title">kemur seinna</p>
+                </a>    
+            </div>
+
+           <div> 
+                <a href="kemur hlekkur seinna" target="_blank">
+                    <img src="kemur seinna" alt="kemur seinna" alt="kemur seinna">
+                    <p class="project-title">kemur seinna</p>
+                </a>    
+            </div>
+
+            <div> 
+                <a href="kemur hlekkur seinna" target="_blank">
+                    <img src="kemur seinna" alt="kemur seinna" alt="kemur seinna">
+                    <p class="project-title">kemur seinna</p>
+                </a>    
+            </div>
+
+        </div> 
+
+    </div>
+
+    <div id="about" class="section">
+        <h2>About</h2>
+        <img id="author-image"  src="" alt="Image of the author">
+
+        <p> 
+            Hi there! My <span class="emphasis">name</span> is <span class="emphasis">María Björk</span> and 
+            <br><br>
+            I am a sport scientist that is apired to software development 
+            <br>
+             i applied to a school called Tækniskólinn to learn web development.
+        </p>
+    </div>
+
+    <div id="Myoldtown" class="section">
+        <h2>My old town</h2>
+        <p>
+            Everything about my home town 
+           <span class="emphasis"><a>pictures and stöff comes later</a></span>
+        </p>
+    </div>
+
+    </main>
+
+    <!-- Menu -->
+    <button id="menu-button" class="fa fa-bars fa-4x" onclick="toggleMenu()"></button>
+
+    <div id="menu">
+        <button class="menu-item" onclick="showHomePage()">Home</button>
+        <button class="menu-item" onclick="showProjectPage()">Project</button>
+        <button class="menu-item" onclick="showAboutPage()">About</button>
+        <button class="menu-item" onclick="showMyoldtownPage()">My old town</button>
+    </div>
+
+    <script src="main.js"></script>
+
+</body>
+</html>
